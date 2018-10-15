@@ -4,7 +4,11 @@
   "description": "",
   "main": "appUse.js",
   "dependencies": {
-    "express": "^4.16.4"
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "helmet": "^3.14.0",
+    "pug": "^2.0.3"
   },
   "devDependencies": {},
   "scripts": {
@@ -19,5 +23,5 @@
   "bugs": {
     "url": "https://github.com/somecallmetim/express201_udemy_tutorial/issues"
   },
-  "homepage": "https://github.com/somecallmetim/express201_udemy_tutorial#readme",
+  "homepage": "https://github.com/somecallmetim/express201_udemy_tutorial#readme"
 }

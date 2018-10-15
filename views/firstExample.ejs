@@ -1,0 +1,18 @@
+<h1>Blitzcrank has rendered a file!</h1>
+
+<% for(let i = 0; i < 10; i++) {%>
+    <%# prints current value of i %>
+    <li><%= i%></li>
+<% } %>
+
+<% for(let i = 0; i < 10; i++) {%>
+    <% if (i%2 === 0) { text = "even"%>
+    <% }else { text = "odd "}%>
+    <li><%= i%> - <%= text %></li>
+<% } %>
+
+<script>
+    for(let i = 0; i < 10; i++){
+        document.write(`<li>Another Test</li>`);
+    }
+</script>
